@@ -246,6 +246,9 @@ nav ul{
                 font-size: 20.0968px;
                 line-height: 26px;
         }
+        .play{
+            display: none;
+        }
 }
 
 
