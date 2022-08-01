@@ -61,11 +61,11 @@ nav ul{
 }
 .play{
     position: absolute;
-    top: -11px;
+    top: -16px;
     right: 10px;
     color: #FfFfFf;
     font-size: 20px;
-    /* display: none; */
+    
     
 }
 .nav_icon{
