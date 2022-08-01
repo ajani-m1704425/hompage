@@ -1,0 +1,324 @@
+/* Phone View */
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: space1;
+    src: url("./SpaceGrotesk-Regular.woff");
+}
+body {
+    font-family: space1;
+}
+.main_header{
+    padding-top: 10px;
+    background: #0E0333;
+    color: #F6F5F7;
+}
+.lightbulb{
+   display: block;
+    position: absolute;
+    width: 9px;
+    height: 8px;
+    background-color:#F6F5F7;
+    border-radius: 50%;
+    top: 2px;
+    left: 33px;
+}
+nav ul{
+    list-style: none;
+}
+.inside_nav_container{
+    padding: 0;
+}
+.website_name{
+        font-family: space1;
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 36px; 
+        color: #F6F5F7;
+        position: relative;
+}
+.inside_nav_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-wrap: nowrap;
+}
+.main_nav{
+    position: absolute;
+    top:35px;
+    right: -8px;
+    background-color: white;
+    width: 232.01px;
+    /* padding: 16px 24px; */
+
+
+}
+.play{
+    position: absolute;
+    top: -11px;
+    right: 10px;
+    color: #FfFfFf;
+    font-size: 20px;
+    display: none;
+    
+}
+.nav_icon{
+  position: relative;
+  
+}
+.mobile_navicon{
+    /* padding-top: 7px; */
+}
+.nav_item{
+    padding: 22px;
+
+}
+.nav_hr{
+    margin: 0 auto;
+    width: 184.01px;
+    height: 0px;
+    border: 0.3px solid #D5D2D9;
+}
+.inside_main_nav{
+  padding: 0;
+  display: none;
+  color:#2F2D33 ;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 80px 60px;
+    padding-bottom: 0px;
+}
+.header_main_content{
+    width: 100%;
+}
+.header_animation{
+    width: 100%;
+    height: 102px;
+    background-color: #767577;
+    margin-top: 45px;
+}
+.shout-out{
+    padding-bottom: 12px;
+    font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        width: 85%;
+        margin: auto;
+}
+.description_phone{
+    padding-top: 12px;
+    padding-bottom: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    
+}
+.description_desktop{
+    display: none;
+}
+.explore_btn{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 14px 16px;
+    border:1px solid #767577;
+    background-color: #0E0333;
+    color: #F6F5F7;
+    display: block;
+    margin: auto;
+}
+ .nav_container {
+     padding: 0 20px;
+ }
+
+
+
+/* Tablet View */
+@media only screen and (min-width: 700px){
+    .main_header {
+            padding-top: 14px;
+        }
+    .nav_icon{display: none;}
+    .inside_main_nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        color: #F6F5F7;
+    }
+    .main_nav {
+        position:initial;
+        background-color: none;
+        width: 65%;
+
+    }
+    .nav_hr {
+        display: none;
+    }
+    .nav_container{
+        padding: 0 60px;
+    }
+      
+    .nav_item {
+        padding: 0px;
+      
+
+    }
+    .main_nav {
+        background-color: #0E0333;
+ 
+    }
+    .header_main_content {
+        width: 47%;
+    }
+
+    .header_animation {
+        width: 47%;
+        height: auto;
+        background-color: gray;
+    }
+    .header_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 80px 60px;
+    }
+        .shout-out {
+           padding-bottom: 12px;
+           width: 100%;
+            text-align: left;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 40px;
+        }
+    
+        .description_desktop {
+            padding-top: 18px;
+            display: block;
+            padding-bottom: 50px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: justify;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+    
+        }
+        .description_phone{
+            display: none;
+        }
+    
+        .explore_btn {
+            font-weight: 700;
+            padding: 14px 16px;
+            border: 1px solid #F6F5F7;
+            background-color: #0E0333;
+            color: #F6F5F7;
+            display: inline;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .website_name{
+            font-weight: 700;
+                font-size: 20.0968px;
+                line-height: 26px;
+        }
+}
+
+
+
+
+
+
+/* Destop View */
+@media only screen and (min-width: 901px){
+    .main_header {
+            padding-top: 6px;
+        }
+   
+    .main_nav {
+        width: 54%;
+
+    }
+    .nav_item {
+        padding: 14px 4px;
+
+    }
+         .desktop_signup {
+    
+             background: #AF97DE;
+             box-shadow: 0px 4px 4px rgba(248, 240, 240, 0.385);
+             border-radius: 4px;
+             padding: 14px 8px;
+         }
+    .nav_container {
+        padding: 0 90px;
+    }
+    .website_name {
+        font-family: space1;
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 36px;
+        color: #F6F5F7;
+        position: relative;
+    }
+    .header_main_content {
+        width: 43%;
+    }
+
+    .header_animation {
+        width: 43%;
+        height: auto;
+        background-color: gray;
+    }
+    .shout-out {
+        padding-bottom: 18px;
+        width: 100%;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 72px;
+        text-align: left;}
+    .description_desktop {
+        padding-top: 18px;
+        display: block;
+        padding-bottom: 90px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: justify;
+    }
+    .description_desktop {
+        padding-bottom: 90px;
+    }
+    .header_content{
+        padding: 80px 110px;
+    }
+        .explore_btn {
+            font-size: 20px;
+            line-height: 28px;
+            padding: 16px;
+        }
+}
+
