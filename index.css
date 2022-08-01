@@ -73,10 +73,12 @@ nav ul{
   
 }
 .mobile_navicon{
-    /* padding-top: 7px; */
+    cursor: pointer;
 }
 .nav_item{
     padding: 22px;
+    cursor: pointer;
+
 
 }
 .nav_hr{
@@ -142,6 +144,7 @@ nav ul{
     color: #F6F5F7;
     display: block;
     margin: auto;
+    cursor: pointer;
 }
  .nav_container {
      padding: 0 20px;
