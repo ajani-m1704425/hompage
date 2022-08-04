@@ -14,6 +14,7 @@ body {
     padding-top: 10px;
     background: #0E0333;
     color: #F6F5F7;
+    margin-bottom: 50px;
 }
 .lightbulb{
    display: block;
@@ -150,12 +151,54 @@ nav ul{
      padding: 0 20px;
  }
 
+ .content_header{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    padding: 50px 50px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+ }
+ .content_describe{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;    
+    text-align: center;
+    color: #716E7A;
+    padding: 40px;
+    padding-top:0px ;
+ }
+ .content_animation{
+    width: 225.91px;
+    height: 80.63px;
+    margin: auto;
+    margin-bottom: 36px;
+    background: #4F4D54;
+    
+ }
+ .content_explore{
+    background: #AF97DE;
+    border-radius: 4px;
+    padding: 14px 16px;
+    display: block;
+    border: none;
+    color: #FfFfFf;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin: auto;
+    margin-bottom: 52px;
+ }
+
 
 
 /* Tablet View */
 @media only screen and (min-width: 700px){
     .main_header {
             padding-top: 14px;
+            margin-bottom: 180px;
         }
     .nav_icon{display: none;}
     .inside_main_nav{
@@ -249,6 +292,38 @@ nav ul{
         .play{
             display: none;
         }
+
+    .content_header {
+        font-size: 40px;
+        line-height: 48px;
+        padding: 50px 80px;
+        padding-top: 0px;
+        padding-bottom: 24px;
+    }
+
+    .content_describe {
+        font-size: 28px;
+        line-height: 36px;
+        color: #000000;
+        padding: 48px;
+        padding-top: 0px;
+        padding-bottom: 130px;
+    }
+
+    .content_animation {
+        width: 622px;
+        height: 222px;
+        margin-bottom: 50px;
+
+    }
+
+    .content_explore {
+        font-size: 16px;
+        line-height: 24px;
+        color: #2F2D33;
+        margin: auto;
+        margin-bottom: 130px;
+    }
 }
 
 
@@ -260,10 +335,11 @@ nav ul{
 @media only screen and (min-width: 901px){
     .main_header {
             padding-top: 6px;
+            margin-bottom: 190px;
         }
    
     .main_nav {
-        width: 54%;
+        width: 48%;
 
     }
     .nav_item {
@@ -325,6 +401,38 @@ nav ul{
             font-size: 20px;
             line-height: 28px;
             padding: 16px;
+        }
+        .content_header {
+            font-size: 48px;
+            line-height: 56px;
+            color: #0E0333;
+            padding: 0px 190px;
+            padding-top: 0px;
+            padding-bottom: 30px;
+        }
+    
+        .content_describe {
+            font-size: 36px;
+            line-height: 44px;
+            color: #0E0333;
+            padding: 190px;
+            padding-top: 0px;
+            padding-bottom: 160px;
+        }
+    
+        .content_animation {
+            width: 820px;
+            height: 337px;
+            margin-bottom: 60px;
+    
+        }
+    
+        .content_explore {
+            font-size: 20px;
+            line-height: 30px;
+            color: #0E0333;
+            margin: auto;
+            margin-bottom: 180px;
         }
 }
 
