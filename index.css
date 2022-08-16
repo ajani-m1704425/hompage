@@ -656,11 +656,12 @@ font-weight: 500;
             display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                align-items: initial;
             background: #0E0333;
             margin-right: 50px;
             margin-left: 50px;
-            justify-content: initial
-            ;
+            justify-content: initial;
+            
     
         }
     
@@ -690,6 +691,7 @@ font-weight: 500;
             color: #F6F5F7;
             padding-bottom: 20px;
             margin-right: 20px;
+            text-align: left;
         }
     
         .content2_describe {
@@ -697,6 +699,7 @@ font-weight: 500;
             line-height: 32px;
             color: #F6F5F7;
             margin-bottom: 36px;
+            text-align: left;
             
         }
     
@@ -735,7 +738,7 @@ font-weight: 500;
                 .main_content3 {
                     
                     width: 33%;
-                    margin: 24px 3g0px;
+                    margin: 24px;
                     
                 }
         
@@ -1045,6 +1048,7 @@ footer {
             
                         .main_content3 {
                             width: 33%;
+                            margin: 24px 30px;
                         }
             
                         .image_contain {
