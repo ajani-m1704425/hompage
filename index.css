@@ -1043,7 +1043,7 @@ footer {
                             flex-wrap: nowrap;
                             justify-content: space-between;
                             align-items: center;
-                            margin: 136px 50px;
+                            margin: 136px 0px;
                         }
             
                         .main_content3 {
@@ -1174,7 +1174,7 @@ footer {
         font-size: 16px;
         line-height: 24px;
         color: #EDE3FF;
-        background: #3A0CA3;
+        background: #AF97DE;
         border-radius: 4px;
         padding: 14px 16px;
         margin-bottom: 100px;
