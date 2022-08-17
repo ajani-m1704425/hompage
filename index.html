@@ -10,14 +10,18 @@
 </head>
 <body>
     <header class="main_header">
-        <nav class="nav_container">
+        <!-- <nav class="nav_container unauthenticated">
             <ul class="inside_nav_container">
                 <li ><h2 class="website_name ">Ani<span class="lightbulb"></span>ma 95</h2></li>
                 <li class="nav_icon"><span class="fa fa-navicon mobile_navicon"></span> </li>
                 <li class="main_nav">
                     <ul class="inside_main_nav">
                         <li class="play"><span class="fa fa-caret-up "></span></li>
+                        <li class="nav_item">Home</li>
+                        <hr class="nav_hr">
                         <li class="nav_item">Documentation</li>
+                        <hr class="nav_hr">
+                        <li class="nav_item">Animation</li>
                         <hr class="nav_hr">
                         <li class="nav_item">Download Library</li>
                         <hr class="nav_hr">
@@ -27,7 +31,60 @@
                     </ul>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
+
+
+
+ <!-- Authenticated User -->
+            <nav class="nav_container authenticated">
+                <ul class="inside_nav_container">
+                    <li class="website_name_container">
+                        <h2 class="website_name ">Ani<span class="lightbulb"></span>ma 95</h2>
+                    </li>
+                    <li class="profile_container">
+                        <div class="profile_main_container">
+                            <p class="profile_displayname_abbr">AO</p>
+                        </div>
+                        <span class="fa fa-angle-down profile_icon"></span>
+                        <div class="profile_dropdown_container">
+                            <div class="top_part">
+                                <img src="./image/close-circle.png" class="circle_closed"   alt="">
+                                <div class="user_profile">
+                                    <p class="profile_displayname">AO</p>
+                                    <p class="profile_fullname">Adetutu Olufunke</p>
+                                    <p class="profile_email">adefunke01@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="profile_nav">
+                                <p class="profile_item"><img src="./image/lock.png" class="profile_items_icon">Change password</p>
+                                <p class="profile_item"><img src="./image/ph_note-blank.png" class="profile_items_icon">Notes</p>
+                                <p class="profile_item"><img src="./image/material-symbols_replay-rounded.png" class="profile_items_icon">Favourites</p>
+                                <p class="profile_item"><img src="./image/logout.png" class="profile_items_icon">Log out</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_icon"><span class="fa fa-navicon mobile_navicon"></span> </li>
+                    <li class="main_nav main_nav_auth">
+                        <ul class="inside_main_nav">
+                            <li class="play"><span class="fa fa-caret-up "></span></li>
+                            <li class="nav_item">Home</li>
+                            <hr class="nav_hr">
+                            <li class="nav_item">Documentation</li>
+                            <hr class="nav_hr">
+                            <li class="nav_item">Animation</li>
+                            <hr class="nav_hr">
+                            <li class="nav_item">Download Library</li>
+                            <hr class="nav_hr">
+                            <li class="nav_item login auth">Log In</li>
+                            <hr class="nav_hr">
+                            <li class="nav_item desktop_signup auth">Sign Up</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+
+
         <div class="header_content">
             <div class="header_main_content">
                 <h1 class="shout-out" >Animation at its <span style="color: #AF97DE">Simplest</span></h1>
