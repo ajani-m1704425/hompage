@@ -2,14 +2,15 @@
 *{
     margin: 0;
 }
-
+/* 
 @font-face {
     src: url("http://fonts.cdnfonts.com/css/space-grotesk");
     font-family: space1;
     
-}
+} */
 body {
-    font-family: space1;
+    /* font-family: space1; */
+    font-family: 'Space Grotesk', sans-serif;
     background: #DEDEDE;
 }
 .main_header{
