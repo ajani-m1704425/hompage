@@ -409,6 +409,15 @@ width: 24px;
         margin-top: 20px;
         margin-left: 52px;
 }
+.html_code{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFBB0;
+    padding: 12px 24px;
+    line-height: 24px;
+
+}
 .reduce-pad{
     margin-bottom: 0px;
 }
@@ -592,6 +601,7 @@ footer {
        padding: 100px 40px;
    }
 
+
    .document-header {
 
         font-size: 50px;
@@ -720,6 +730,13 @@ footer {
         margin-bottom: 100px;
         margin-top: 20px;
         margin-left: 100px;
+   }
+   .html_code{
+    font-weight: 400;
+        font-size: 24px;
+        padding: 32px 48px;
+        line-height: 36px;
+        width: 434px;
    }
    .reduce-pad {
        margin-bottom: 0px;
@@ -884,7 +901,9 @@ footer {
     .main_header {
         padding-top: 14px;
     }
-
+ .one {
+     display:block ;
+ }
 
     .inside_main_nav {
         display: flex;
@@ -894,6 +913,15 @@ footer {
         align-items: center;
         color: #2F2D33;
     }
+       
+    
+        .two {
+            display: none;
+    
+        }
+        .inside_main_nav{
+            display: flex;
+        }
 
 
 
