@@ -23,12 +23,12 @@ body {
 .lightbulb{
    display: block;
     position: absolute;
-    width: 7px;
+    width: 6px;
     height: 6px;
     background-color:#F6F5F7;
     border-radius: 50%;
     top: 0px;
-    left: 22px;
+    left: 23px;
 }
 nav ul{
     list-style: none;
@@ -38,7 +38,6 @@ nav ul{
 }
 
 .website_name{
-        font-family: space1;
         font-style: normal;
         font-size: 19px;
         font-weight: 700;
@@ -553,6 +552,10 @@ font-weight: 700;
         color: #FFFFFF;
         margin-bottom: 8px;
         cursor: pointer;
+        transition: all 1s;
+}
+.animate:hover {
+    font-size: 14px;
 }
 .footer_main_phone_nav{
     display: flex;
@@ -689,7 +692,7 @@ font-weight: 500;
                 line-height: 26px;
         }
         .lightbulb {
-            width: 7px;
+            width: 8px;
             height: 7px;
             top: 0px;
             left: 26px;
@@ -1024,7 +1027,9 @@ footer {
     color: #FFFFFF;
     margin-bottom: 8px;
 }
-
+.animate:hover {
+    font-size: 14px;
+}
 .footer_main_phone_nav {
     display: flex;
     flex-direction: row;
@@ -1303,7 +1308,6 @@ footer {
     }
 
     .website_name {
-        font-family: space1;
         font-style: normal;
         font-size: 28px;
         font-weight: 700;
@@ -1314,8 +1318,8 @@ footer {
     }
 
     .lightbulb {
-        width: 9px;
-        height: 9px;
+        width: 10px;
+        height: 8px;
         top: 2px;
         left: 33px;
     }
@@ -1795,7 +1799,9 @@ footer {
                                 color: #FFFFFF;
                                 margin-bottom: 16px;
                             }
-    
+                                    .animate:hover {
+                                        font-size: 18px;
+                                    }
                             .footer_main_phone_nav {
                                 display: flex;
                                 flex-direction: row;
