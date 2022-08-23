@@ -18,6 +18,9 @@ body {
     color: #F6F5F7;
     margin-bottom: 50px;
 }
+a{
+    color: #F6F5F7;
+}
 
 
 .lightbulb{
@@ -219,7 +222,6 @@ nav ul{
 .header_animation{
     width: 100%;
     height: 102px;
-    background-color: #767577;
     margin-top: 45px;
 }
 .shout-out{
@@ -285,11 +287,40 @@ nav ul{
     height: 80.63px;
     margin: auto;
     margin-bottom: 90px;
-    background: #4F4D54;
     
  }
  
-
+.anime_img1{
+    display: block;
+    margin: auto;
+    width: 140px;
+        height: 102.78px;
+}
+.anime_img2 {
+    display: block;
+    margin: auto;
+width: 128px;
+    height: 128px;
+}
+.anime_img2:hover{
+animation-name:rotate ;
+}
+.anime_img3 {
+    display: block;
+    margin: auto;
+width: 84.12px;
+    height: 83px;
+    animation-name: bounce;
+    -webkit-animation-name: bounce;
+    animation-iteration-count: infinite;
+        animation-direction: alternate;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        animation-duration: 0.8s;
+        -webkit-animation-duration: 0.8s;
+}
  .content2_container{
     display: flex;
     flex-direction: column;
@@ -297,13 +328,13 @@ nav ul{
     align-items: center;
     
     background: #0E0333;
+    padding-top: 30px;
     
 
  }
 .content2_animation{
 width: 45%;
 order: 0;
-background: #2F2D33;
 height: 110px;
 margin-top: 24px;
 }
@@ -640,7 +671,6 @@ font-weight: 500;
     .header_animation {
         width: 47%;
         height: auto;
-        background-color: gray;
     }
     .header_content {
         display: flex;
@@ -658,7 +688,37 @@ font-weight: 500;
             font-size: 36px;
             line-height: 40px;
         }
+        .anime_img1 {
+            display: block;
+            margin: auto;
+    width: 316px;
+    height: 231.99px;
+        }
     
+        .anime_img2 {
+            display: block;
+            margin: auto;
+        width: 313px;
+        height: 313px;
+        }
+    
+        .anime_img3 {
+            display: block;
+            margin: auto;
+            width: 180px;
+            height: 180px;
+            -webkit-animation-name: bounce-LG;
+            animation-name: bounce-LG;
+            animation-iteration-count: infinite;
+                animation-direction: alternate;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+                animation-duration: 0.8s;
+                    -webkit-animation-duration: 0.8s;
+                
+        }
         .description_desktop {
             padding-top: 18px;
             display: block;
@@ -736,6 +796,7 @@ font-weight: 500;
             margin-right: 50px;
             margin-left: 60px;
             justify-content: initial;
+            padding-top: 0px;
             
     
         }
@@ -743,7 +804,6 @@ font-weight: 500;
         .content2_animation {
             width: 35%;
             order: 0;
-            background: #2F2D33;
             /* width: 188px; */
             height: 212.08px;
             margin-left: 36px;
@@ -1294,7 +1354,6 @@ footer {
         width: fit-content;
 
     }
-
     .desktop_signup {
         margin-left: 8px;
         background: #AF97DE;
@@ -1496,7 +1555,6 @@ footer {
     .header_animation {
         width: 43%;
         height: auto;
-        background-color: gray;
     }
     .shout-out {
         padding-bottom: 18px;
@@ -1574,7 +1632,6 @@ footer {
         
                 .content2_animation {
                     width: 35%;
-                    background: #2F2D33;
                     /* width: 188px; */
                     height: 293px;
                     margin-left: 120px;
